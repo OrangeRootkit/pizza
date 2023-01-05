@@ -1,25 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Pizza</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav></nav>
+      <div class="container">
+        <div class="header__topline">
+          <div class="header__logoandname">
+            <img
+              class="header__logo"
+              srcset="./images/header/header__logo.svg"
+              alt="logo"
+            />
+
+            <div>
+              <img
+                class="header__name"
+                src="./images/header/header__name.svg"
+                alt="name"
+              />
+              <p class="header__textlogo">Сеть пиццерий №1 в России</p>
+            </div>
+          </div>
+          <div class="header__call">
+            <p class="header__phonenumber">8 800 302-00-60</p>
+            <p class="header__freecall">Звонок бесплатный</p>
+          </div>
+        </div>
+        <div class="header__bottomline">
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li><a href="" class="header__link">Пицца</a></li>
+              <li><a href="" class="header__link">Комбо</a></li>
+              <li><a href="" class="header__link">Закуски</a></li>
+              <li><a href="" class="header__link">Десерты</a>
+              <li><a href="" class="header__link">Напитки</a></li>
+              <li><a href="" class="header__link">Другие товары</a></li>
+            </ul>
+          </nav>
+            <button class="global__button" type="submit">Корзина</button>
+            <!-- <div class="header__bucket"> -->
+            <!-- <a href="" class="header__bucketlink">Корзина</a> -->
+          <!-- </div> -->
+        </div>
+      </div>
+      </div>
     </header>
     <main>
-        <section>
-            <div class="container">
-            <h2>"Новое и популярное"</h2>
-            <div class="home__popular"></div>
+      <section>
+        <div class="container">
+          <div> 
+            <img srcset="./images/slider/slider1x.jpg 1x, ./images/slider/slider2x.jpg 2x" alt="slider">
+          </div>
+          <div class="wrapper">
+            <h2 class="chapter__header">"Новое и популярное"</h2>
+            <div class="gridnew">
+              <div class="gridnew__card">
+                <img srcset="./images/new/cesar1x.jpg 1x, ./images/new/cesar2x.jpg 2x" alt="pizza">
+                <div class="gridnewcard__info">
+                  <p class="gridnewcard__text">Цезарь</p>
+                  <p class="gridnewcard__price">от 445 ₽</p>
+                </div>
+              </div>
+              <div class="gridnew__card">
+                <img srcset="./images/new/salmon1x.jpg 1x, ../images/new/salmon2x.jpg 2x" alt="pizza">
+                <div class="gridnewcard__info">
+                  <p class="gridnewcard__text">Нежный лосось</p>
+                  <p class="gridnewcard__price">от 445 ₽</p>
+                </div>
+              </div>
+              <div class="gridnew__card">
+                <img srcset="./images/new/double1x.jpg 1x, ./images/new/double2x.jpg 2x" alt="pizza">
+                <div class="gridnewcard__info">
+                  <p class="gridnewcard__text">2 пиццы</p>
+                  <p class="gridnewcard__price">от 899 ₽</p>
+                </div>
+              </div>
+              <div class="gridnew__card">
+                <img srcset="./images/new/cesar1x.jpg 1x, ./images/new/cesar2x.jpg 2x" alt="pizza">
+                <div class="gridnewcard__info">
+                  <p class="gridnewcard__text">Карбонара</p>
+                  <p class="gridnewcard__price">от 395 ₽</p>
+                </div>
+              </div>
             </div>
-        </section>
+          
+
+          <h2 class="chapter__header">"Пицца"</h2>
+          <div class="maingrid">
+            <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+             <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+               <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+              <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+               <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+             <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+              <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+              <div class="maincard">
+              <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
+              <h3 class="maincard__header">Пицца из половинок</h3>
+              <p class="maincard__text">Соберите свою пиццу 35 см с двумя разными вкусами</p>
+              <div class="maincard__button">
+                <p class="maincard__price">от 600 ₽</p>
+                <button class="global__button" type="submit">Собрать</button>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
-    
-</body>
+  </body>
 </html>

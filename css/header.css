@@ -1,0 +1,92 @@
+.header__topline {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: ; */
+  padding: 25px 0 0;
+}
+
+.header__logoandname {
+  display: flex;
+  max-width: 249px;
+  padding: 0px 0;
+  align-items: top;
+}
+
+.header__logo {
+  display: block;
+  margin: 0 14px 0 0;
+}
+
+.header__name {
+  padding: 8px 0 0;
+}
+
+.header__call {
+  display: block;
+}
+
+.header__textlogo {
+  font-size: 12px;
+  line-height: 16.37px;
+  color: #343434;
+}
+
+.header__phonenumber {
+  padding: 8px 0 0;
+  font-size: 18px;
+  line-height: 24.55px;
+}
+
+.header__freecall {
+  font-size: 15px;
+  line-height: 20.46px;
+  text-align: end;
+  color: #999999;
+}
+
+.header__bottomline {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 0 30px 0;
+}
+
+.header__nav {
+  max-width: 467px;
+  display: block;
+  font-size: 14px;
+  line-height: 19.1px;
+  padding: 13px 0 0;
+}
+
+.header__ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__link:hover {
+  color: #f96900;
+}
+
+/* .header__bucket {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  background-color: #f96900;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 40px;
+} */
+
+
+a {
+  text-decoration: none;
+}
