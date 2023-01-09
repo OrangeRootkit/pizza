@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Nunito", "Times New Roman", Times, serif;
+  font-family: "Nunito",serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -29,4 +29,5 @@ html {
   line-height: 21.82px;
   font-weight: 600;
   color: #fff;
+  cursor: pointer;
 }

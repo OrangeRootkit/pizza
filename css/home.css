@@ -43,12 +43,14 @@
   padding: 40px 0 70px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
 }
 
 .maincard {
   background-color: violet;
+
+
 }
 
 .maincard__img {
@@ -76,7 +78,8 @@
   display: flex;
   padding: 30px 20px 0 0;
   justify-content: space-between;
-  align-items: center;
+ align-items: flex-end;
+
 }
 
 .maincard__price {
