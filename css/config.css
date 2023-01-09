@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Nunito",serif;
+  font-family: "Nunito", serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -30,9 +30,16 @@ html {
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-
 }
 
 .global__button:hover {
   opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

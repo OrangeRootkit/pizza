@@ -31,6 +31,7 @@
   font-size: 14px;
   line-height: 19.1px;
   margin: 0 0 4px;
+  flex-grow: 1;
 }
 
 .gridnewcard__price {
@@ -47,10 +48,14 @@
   gap: 20px;
 }
 
+.maingrid:last-child {
+  padding: 40px 0 0;
+}
+
 .maincard {
   background-color: violet;
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .maincard__img {
@@ -72,14 +77,14 @@
   font-size: 14px;
   line-height: 19px;
   color: #73798c;
+  flex-grow: 1;
 }
 
 .maincard__button {
   display: flex;
   padding: 30px 20px 0 0;
   justify-content: space-between;
- align-items: flex-end;
-
+  align-items: flex-end;
 }
 
 .maincard__price {
