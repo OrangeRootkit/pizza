@@ -3,10 +3,81 @@
   padding: 50px 0 36px;
 }
 
-.footer-info__wrapper {
-  display: grid;
-  grid-column: repeat (5, 1fr);
+.grid__wrapper {
+display: grid;
+grid-template-columns: 137px 147px 154px 166px 300px;
+grid-area: 
+"column1 column2 column3 column4 contacts"
+"row-info1 row-info1 row-info2 row-info2 row-info2"
+"footer-raw1 footer-raw1 footer-raw2 footer-raw2 footer-raw2";
 }
+
+.grid__column1{
+  grid-area: "column1";
+  display: flex;
+  flex-direction: column;
+}
+
+.grid__column2{
+  grid-area: "column2";
+  display: flex;
+  flex-direction: column;
+}
+
+.grid__column3{
+  grid-area: "column3";
+  display: flex;
+  flex-direction: column;
+}
+
+.grid__column4 {
+  grid-area: "column4";
+  display: flex;
+  flex-direction: column;
+}
+
+.grid__column-contacts {
+  grid-area: "contacts";
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__phonenumber {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #fff;
+  text-align: end;
+  margin-bottom: 6px;
+}
+
+.footer__freecall {
+  text-align: end;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 0.5;
+  color: #fff;
+  margin-bottom: 26px;
+}
+
+.footer__mail {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+
+
 
 .infomain__wrapper {
   display: flex;
@@ -51,40 +122,49 @@
   margin-bottom: 29px;
 }
 
-.footer__phonenumber {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 26px;
-  color: #fff;
-  text-align: end;
-  margin-bottom: 6px;
-}
 
-.footer__freecall {
-  text-align: end;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
-  opacity: 0.5;
-  color: #fff;
-  margin-bottom: 26px;
-}
-
-.footer__mail {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: right;
-  color: #ffffff;
-  opacity: 0.9;
-}
 
 .info__items__ul > li {
   margin-bottom: 10px;
 }
+
+.grid {
+  display: grid;
+  grid-column: 200px 200px 200px 200px;
+  grid-area: 
+  "a b c d"
+  "e e f f"
+  "g g h h";
+}
+
+.col1 {
+grid-area: "a";
+}
+
+.col2{
+  grid-area: "b";
+}
+
+.col3 {
+  grid-area: "c";
+}
+
+.col4 {
+  grid-area: "d";
+}
+
+/* .raw21 {
+
+}
+
+.raw22 {
+
+}
+
+.raw31 {
+
+}
+
+.raw32 {
+
+} */
