@@ -33,12 +33,19 @@
 }
 
 .header__phonenumber {
+  display: block;
   padding: 8px 0 0;
   font-size: 18px;
   line-height: 24.55px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
 }
 
 .header__freecall {
+  display: block;
   font-size: 15px;
   line-height: 20.46px;
   text-align: end;
@@ -74,19 +81,25 @@
   color: #f96900;
 }
 
-/* .header__bucket {
-  width: 140px;
-  height: 40px;
-  text-align: center;
-  background-color: #f96900;
-  border-radius: 20px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 40px;
-} */
 
+@media (max-width: 575px){
+  .mobile-wrapper {
+    padding: 12px 16px 0 16px;
+  }
 
-a {
-  text-decoration: none;
+  .header__logo {
+    width: 22.5px;
+height: 23px;
+  }
+
+  .header__textlogo {
+    display: none;
+
+  }
+
+  .header__name {
+    padding: 8px 0 0;
+    width: 22.5px;
+height: 23px;
+  }
 }

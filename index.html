@@ -16,6 +16,7 @@
   <body>
     <header>
       <div class="container">
+        <div class="mobile-wrapper">
         <div class="header__topline">
           <div class="header__logoandname">
             <img
@@ -34,8 +35,8 @@
             </div>
           </div>
           <div class="header__call">
-            <p class="header__phonenumber">8 800 302-00-60</p>
-            <p class="header__freecall">Звонок бесплатный</p>
+            <a class="header__phonenumber" href="tel:88003020060">8 800 302-00-60</a>
+            <a class="header__freecall" href="tel:88003020060">Звонок бесплатный</a>
           </div>
         </div>
         <div class="header__bottomline">
@@ -50,9 +51,6 @@
             </ul>
           </nav>
             <button class="global__button" type="submit">Корзина</button>
-            <!-- <div class="header__bucket"> -->
-            <!-- <a href="" class="header__bucketlink">Корзина</a> -->
-          <!-- </div> -->
         </div>
       </div>
       </div>
@@ -95,7 +93,7 @@
                 </div>
               </div>
             </div>
-          
+          </div>
 
           <h2 class="chapter__header">"Пицца"</h2>
           <div class="maingrid">
@@ -171,7 +169,8 @@
                     <button class="global__button" type="submit">Собрать</button>
                  </div>
               </div>
-            </div>
+            </div> <!-- mobile-wrapper -->
+            
             
 
             <!-- Комбо -->
@@ -232,7 +231,7 @@
              <img class="maincard__img" srcset="./images/snack/soup1x.jpg 1x, ./images/snack/soup2x.jpg 2x" alt="soup">
              <h3 class="maincard__header">Томатный суп с&nbsp;&nbsp;&nbsp; гренками</h3>
              <p class="maincard__text">Горячий суп с пшеничными гренками на основе фирменного соуса из итальянских томатов</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">99 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -241,7 +240,7 @@
              <img class="maincard__img" srcset="./images/snack/soup1x.jpg 1x, ./images/snack/soup2x.jpg 2x" alt="soup">
              <h3 class="maincard__header">Томатный суп с митболами </h3>
              <p class="maincard__text">Горячий суп c митболами из говядины и маслинами на основе фирменного соуса из итальянских томатов</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">149 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -251,7 +250,7 @@
              <h3 class="maincard__header">Додстер</h3>
              <p class="maincard__text">Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке
              </p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -260,7 +259,7 @@
              <img class="maincard__img" srcset="./images/snack/hotdodster1x.jpg 1x, ./images/snack/hotdodster2x.jpg 2x" alt="hotdodster">
              <h3 class="maincard__header">Острый Додстер</h3>
              <p class="maincard__text">Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -269,7 +268,7 @@
              <img class="maincard__img" srcset="./images/snack/chipole1x.jpg 1x, ./images/snack/chipole2x.jpg 2x" alt="chipole">
              <h3 class="maincard__header">Додстер Чипотле</h3>
              <p class="maincard__text">Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -283,7 +282,7 @@
              <img class="maincard__img" srcset="./images/desert/apple1x.jpg 1x, ./images/desert/apple2x.jpg 2x" alt="apple">
              <h3 class="maincard__header">Яблочный пирог</h3>
              <p class="maincard__text">Десерт из песочного теста с яблочной начинкой. Может содержать изюм</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">99 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -293,7 +292,7 @@
              <h3 class="maincard__header">Чизкейк Нью-Йорк</h3>
              <p class="maincard__text">Классический американский творожный десерт
              </p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">149 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -301,26 +300,26 @@
            <div class="maincard">
              <img class="maincard__img" srcset="./images/desert/fondan1x.jpg 1x, ./images/desert/fondan2x.jpg 2x" alt="fondan">
              <h3 class="maincard__header">Фонданы, 2 шт</h3>
-             <p class="maincard__text">Два десерта с хрустящей корочкой и топлёной шоколадной начинкой</p>
-             <div class="maincard__button">
+             <p class="maincard__text maincard__text_width">Два десерта с хрустящей корочкой и топлёной шоколадной начинкой</p>
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
            </div>
            <div class="maincard">
              <img class="maincard__img" srcset="./images/desert/milk1x.jpg 1x, ./images/desert/milk2x.jpg 2x" alt="milk">
-             <h3 class="maincard__header">Молочный коктейль с печеньем Орео</h3>
+             <h3 class="maincard__header maincard__header_width">Молочный коктейль с печеньем Орео</h3>
              <p class="maincard__text">Напиток из молока и мороженого с добавлением дробленого печенья «Орео»</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
            </div>
             <div class="maincard">
              <img class="maincard__img" srcset="./images/desert/milk1x.jpg 1x, ./images/desert/milk2x.jpg 2x" alt="milk">
-             <h3 class="maincard__header">Фонданы, 2 шт</h3>
-             <p class="maincard__text">Два десерта с хрустящей корочкой и топлёной шоколадной начинкой</p>
-             <div class="maincard__button">
+             <h3 class="maincard__header maincard__header_width">Классический молочный коктейль</h3>
+             <p class="maincard__text">Напиток из молока и мороженого</p>
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -332,9 +331,9 @@
           <div class="maingrid">
             <div class="maincard">
              <img class="maincard__img" srcset="./images/drinks/twocola1x.jpg 1x, ../images/drinks/twocola2x.jpg 2x" alt="2cola">
-             <h3 class="maincard__header">2 Coca-Cola по суперцене</h3>
+             <h3 class="maincard__header maincard__header_width">2 Coca-Cola по суперцене</h3>
              <p class="maincard__text">Две классические Coca-Cola по 0,5 литров по выгодной цене, 0,5 л</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">99 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -344,7 +343,7 @@
              <h3 class="maincard__header">Coca-Cola Orange</h3>
              <p class="maincard__text">0,5 л
              </p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">149 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -353,7 +352,7 @@
              <img class="maincard__img" srcset="./images/drinks/zero1x.jpg 1x, ./images/drinks/zero2x.jpg 2x" alt="zero">
              <h3 class="maincard__header">Coca-Cola Zero</h3>
              <p class="maincard__text">0,5 л</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
@@ -362,14 +361,14 @@
              <img class="maincard__img" srcset="./images/drinks/cola1x.jpg 1x, ./images/drinks/cola2x.jpg 2x" alt="cola">
              <h3 class="maincard__header">Coca-Cola</h3>
              <p class="maincard__text">0,5 л</p>
-             <div class="maincard__button">
+             <div class="maincard__button maincard__button_padding">
                 <p class="maincard__price">159 ₽</p>
                 <button class="global__button" type="submit">Собрать</button>
              </div>
            </div>
             <div class="maincard">
              <img class="maincard__img" srcset="./images/drinks/vanilla1x.jpg 1x, ./images/drinks/vanilla2x.jpg 2x" alt="vanilla">
-             <h3 class="maincard__header">Coca-Cola</h3>
+             <h3 class="maincard__header">Coca-Cola Vanilla</h3>
              <p class="maincard__text">0,5 л</p>
              <div class="maincard__button">
                 <p class="maincard__price">159 ₽</p>
@@ -487,5 +486,7 @@
         </div> <!--container-->
       </section>
     </footer>
+    <button>agdsgasg</button>
+    <input type="button" name="" id="" value="asgagasgsdh">
   </body>
 </html>

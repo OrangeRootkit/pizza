@@ -44,8 +44,9 @@
   padding: 40px 0 70px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-rows: repeat(2, auto);
+column-gap: 20px;
+row-gap: 60px;
 }
 
 .maingrid:last-child {
@@ -53,7 +54,6 @@
 }
 
 .maincard {
-  background-color: violet;
   display: flex;
   flex-direction: column;
 }
@@ -71,6 +71,11 @@
   margin-bottom: 10px;
 }
 
+.maincard__header_width {
+max-width: 201px;
+}
+
+
 .maincard__text {
   max-width: 235px;
   font-weight: 400;
@@ -80,11 +85,19 @@
   flex-grow: 1;
 }
 
+.maincard__text_width {
+  max-width: 216px;
+}
+
 .maincard__button {
   display: flex;
-  padding: 30px 20px 0 0;
+  padding: 11px 20px 0 0;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+}
+
+.maincard__button_padding {
+  padding: 20px 20px 0 0;
 }
 
 .maincard__price {
