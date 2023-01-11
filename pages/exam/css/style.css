@@ -8,5 +8,76 @@
     width: 780px;
 height: 340px;
 margin: 50px auto;
-background-color: red;
+padding: 40px;
+border: 1px solid #E2E2E9;
 }
+
+.order-num {
+    font-family: 'Nunito';
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #73798C;
+margin: 0 0 5px;
+}
+
+.accept-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+color: #000;
+margin: 0 0 31px;
+}
+
+.line {
+    height: 4px;
+    background: #E2E2E9;
+border-radius: 2px;
+margin: 0 0 9px;
+}
+
+.address {
+    font-family: 'Nunito';
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+margin: 0 0 70px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: block;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 25px;
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+border: none;
+}
+
+.button-deny {
+    width: 160px;
+    background-color: #FFF0E6;
+    color: #D15700;
+}
+
+
+.button-back {
+    width: 190px;
+    background-color: #F96900;
+    color: #fff;
+}
+
