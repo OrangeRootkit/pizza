@@ -37,7 +37,7 @@
   padding: 8px 0 0;
   font-size: 18px;
   line-height: 24.55px;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -81,25 +81,42 @@
   color: #f96900;
 }
 
-
-@media (max-width: 575px){
+@media (max-width: 768px) {
   .mobile-wrapper {
     padding: 12px 16px 0 16px;
   }
 
   .header__logo {
     width: 22.5px;
-height: 23px;
+    height: 23px;
+    margin: 0 8.25px 0 0;
   }
 
   .header__textlogo {
     display: none;
-
   }
 
   .header__name {
-    padding: 8px 0 0;
-    width: 22.5px;
-height: 23px;
+    padding: 0;
+    width: 125.32px;
+    height: 14.15px;
+  }
+
+  .header__logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__call {
+    display: none;
+  }
+
+  .header__topline {
+    padding: 12px 0 0;
+    margin: 0 0 21px;
+  }
+
+  .header__bottomline {
+    display: none;
   }
 }

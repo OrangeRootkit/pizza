@@ -16,7 +16,7 @@
   <body>
     <header>
       <div class="container">
-        <div class="mobile-wrapper">
+        <!-- <div class="mobile-wrapper"> -->
         <div class="header__topline">
           <div class="header__logoandname">
             <img
@@ -25,7 +25,7 @@
               alt="logo"
             />
 
-            <div>
+            <div class="header__logo-wrapper">
               <img
                 class="header__name"
                 src="./images/header/header__name.svg"
@@ -52,17 +52,17 @@
           </nav>
             <button class="global__button" type="submit">Корзина</button>
         </div>
-      </div>
+      <!-- </div> -->
       </div>
     </header>
     <main>
       <section>
         <div class="container">
           <div> 
-            <img srcset="./images/slider/slider1x.jpg 1x, ./images/slider/slider2x.jpg 2x" alt="slider">
+            <img class="slider-img" srcset="./images/slider/slider1x.jpg 1x, ./images/slider/slider2x.jpg 2x" alt="slider">
           </div>
           <div class="wrapper">
-            <h2 class="chapter__header">"Новое и популярное"</h2>
+            <h2 class="chapter__header">Новое и популярное</h2>
             <div class="gridnew">
               <div class="gridnew__card">
                 <img srcset="./images/new/cesar1x.jpg 1x, ./images/new/cesar2x.jpg 2x" alt="pizza">
@@ -86,16 +86,16 @@
                 </div>
               </div>
               <div class="gridnew__card">
-                <img srcset="./images/new/cesar1x.jpg 1x, ./images/new/cesar2x.jpg 2x" alt="pizza">
+                <img srcset="./images/new/carbonara1x.jpg 1x, ./images/new/carbonara2x.jpg 2x" alt="pizza">
                 <div class="gridnewcard__info">
                   <p class="gridnewcard__text">Карбонара</p>
                   <p class="gridnewcard__price">от 395 ₽</p>
                 </div>
               </div>
             </div>
-          </div>
+          
 
-          <h2 class="chapter__header">"Пицца"</h2>
+          <h2 class="chapter__header">Пицца</h2>
           <div class="maingrid">
             <div class="maincard">
               <img class="maincard__img" srcset="./images/pizza_main/image111x.jpg 1x, ./images/new/image112x.jpg 2x" alt="pizza">
@@ -174,7 +174,7 @@
             
 
             <!-- Комбо -->
-         <h2 class="chapter__header">"Комбо"</h2>
+         <h2 class="chapter__header">Комбо</h2>
          <div class="maingrid">
           <div class="maincard">
             <img class="maincard__img" srcset="./images/combo/combo1x.jpg 1x, ./images/combo/combo2x.jpg 2x" alt="combo">
@@ -225,7 +225,7 @@
         </div>
 
           <!-- Закуски -->
-          <h2 class="chapter__header">"Закуски"</h2>
+          <h2 class="chapter__header">Закуски</h2>
           <div class="maingrid">
            <div class="maincard">
              <img class="maincard__img" srcset="./images/snack/soup1x.jpg 1x, ./images/snack/soup2x.jpg 2x" alt="soup">
@@ -276,7 +276,7 @@
          </div>
 
           <!-- десерты -->
-          <h2 class="chapter__header">"Десерты"</h2>
+          <h2 class="chapter__header">Десерты</h2>
           <div class="maingrid">
             <div class="maincard">
              <img class="maincard__img" srcset="./images/desert/apple1x.jpg 1x, ./images/desert/apple2x.jpg 2x" alt="apple">
@@ -327,7 +327,7 @@
          </div>
 
           <!-- напитки -->
-          <h2 class="chapter__header">"Напитки"</h2>
+          <h2 class="chapter__header">Напитки</h2>
           <div class="maingrid">
             <div class="maincard">
              <img class="maincard__img" srcset="./images/drinks/twocola1x.jpg 1x, ../images/drinks/twocola2x.jpg 2x" alt="2cola">
@@ -379,6 +379,7 @@
           </div>
         </div>
         </div>
+      
       </section>
     </main>
 
@@ -449,9 +450,11 @@
                 <a class="contacts__store-link" href="https://play.google.com/store/apps/details?id=ru.dodopizza.app&hl=ru&gl=US&pli=1"><img            class="contacts__image" src="./images/social/google.svg" alt="gogleapp"></a>
                 <a class="contacts__store-link"  href="https://apps.apple.com/ru/app/%D0%B4%D0%BE%D0%B4%D0%BE-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD/id894649641"><img class="contacts__image" src="./images/social/apple.svg" alt="apple"></a>
               </div>
-              <a class="contacts__phone" href="tel:88003020060">8 800 302-00-60</a>
-              <a class="contacts__freecall" href="tel:88003020060">Звонок бесплатный</a>
+              <div class="contacts__call">
+                <a class="contacts__phone" href="tel:88003020060">8 800 302-00-60</a>
+                <a class="contacts__freecall" href="tel:88003020060">Звонок бесплатный</a>
               <a class="contacts__mail" href="mailto:nowhere@mozilla.org">feedback@dodopizza.com</a>
+              </div>
             </div>
             
             <div class="grid__numbers">
@@ -480,9 +483,9 @@
               <a class="social__link"href="https://ok.ru/dodopizza"><img class="social__img" src="./images/social/ok.svg" alt="ok"></a>
               <a class="social__link"href="https://vk.com/dodo"><img class="social__img"src="./images/social/vk.svg" alt="vk"></a>
               <a class="social__link" href="https://www.youtube.com/channel/UCkPTVsNw2R5lwQ_VxF6Wuow"><img class="social__img" src="./images/social/youtube.svg" alt="youtube"></a>
-
             </div>
           </div>
+          
         </div> <!--container-->
       </section>
     </footer>
